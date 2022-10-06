@@ -83,4 +83,12 @@
   .comparison-pics-container {
     flex-direction: column;
   }
+
+  .before-image,
+  .after-image {
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+  }
 } ;
