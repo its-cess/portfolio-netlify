@@ -62,9 +62,14 @@
   }
 }
 
-@media screen and (max-width: 907px) {
+@media screen and (max-width: 855px) {
   .project-item-container {
     margin: 20px;
+
+    .thumbnail {
+      height: 200px;
+      width: 300px;
+    }
   }
   a {
     width: 100% !important;
