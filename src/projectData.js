@@ -8,7 +8,7 @@ let projects = [
     url: "https://sensational-belekoy-1a394b.netlify.app",
 
     using:
-      "This project was created using React v18, React Router v6, SASS, and Styled Components. Firebase is used as a database and for authentication. Authentication is available using email/password or with the Google Sign in Method. It is hosted on Netlify."
+      "This project was created using React v18, React Router v6, Redux, SASS, and Styled Components. Firebase is used as a database and for authentication. Authentication is available using email/password or with the Google Sign in Method. It is hosted on Netlify."
   },
   {
     id: 11,
