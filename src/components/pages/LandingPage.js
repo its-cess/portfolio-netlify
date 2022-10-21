@@ -5,22 +5,19 @@ export default function LandingPage() {
     <div className="landing-page-container">
       <h1 className="banner">Welcome!</h1>
       <p className="introduction">
-        I'm Cecily Toro - a junior front end web developer. Thanks for stopping
-        by to look at my portfolio! I just finished a 6-month internship at a
-        startup company. You can take a look at the work I did during that
-        internship in-depth in the{" "}
+        I'm Cecily Toro - a frontend web developer. Thanks for stopping by to
+        look at my portfolio! To see some of the work I've done that is in
+        production, please visit the{" "}
         <a href="/experience" className="inline-link">
           Work Experience
         </a>{" "}
         page.
         <br />
-        <br />I am currently looking for a junior front-end developer position.
-        I am available to start immediately. I have experience working with
-        HTML, CSS, JavaScript, and jQuery. I have experience using multiple
-        JavaScript frameworks including both Vue.js and React.js. I am
-        comfortable using a variety of component libraries including Bootstrap.
-        I also use CSS preprocessors like SASS. To see a more complete list of
-        technologies, please check out some of my{" "}
+        <br />I have experience working with HTML, CSS, JavaScript, and jQuery.
+        I use multiple JavaScript frameworks including both Vue.js and React.js.
+        I am comfortable using a variety of component libraries including
+        Bootstrap. I also use CSS preprocessors like SASS. To see a more
+        complete list of technologies, please check out some of my{" "}
         <a href="/projects" className="inline-link">
           projects
         </a>
