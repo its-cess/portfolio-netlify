@@ -21,14 +21,16 @@ export default function ProjectItem(props) {
           <p>
             <span>{props.using}</span>
           </p>
-          <Button
-            variant="secondary"
-            href={props.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visit Page
-          </Button>
+          {props.url && (
+            <Button
+              variant="secondary"
+              href={props.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit Page
+            </Button>
+          )}
           {props.repo && (
             <Button
               variant="outline-secondary"
