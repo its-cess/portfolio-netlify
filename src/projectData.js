@@ -5,6 +5,7 @@ let projects = [
     description:
       "This website was built for a horse boarding business. Users can read about how the business got started and their values. They can also see the services and facilities offered at Velvet Acres. They can also see the horses that are currently being boarded there. A contact page is available with the farm's information.",
     image: "projects/velvet-acres.png",
+    url: "https://velvetacres.netlify.app/",
     repo: "https://github.com/its-cess/velvet-acres",
     using:
       "This project was built using SvelteKit v1, Tailwind CSS, and Sanity as a headless CMS. Rich text editors and images are displayed on the site from Sanity Studio. This site was built with the farm owner in mind. The integration with Sanity allows the business owner to easily update any of the facilities, services, or horses. Any changes made would immediately go live to the website."
