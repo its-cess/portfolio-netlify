@@ -34,6 +34,15 @@ export default function AboutMe() {
         evenings, I either have my nose in a book or am cheering on my Columbus
         Blue Jackets!
       </p>
+      <div className="certfications-container">
+      <h1 className="certfications">Certifications</h1>
+      <div className="cert-container">
+        <div className="individual-cert">
+        <img src={process.env.PUBLIC_URL + `/images/comptia-project-cert.png`} alt="CompTIA Project+ Certification Badge" className="cert-image"/>
+        <h2 className="cert-description">CompTIA Project+ Certification</h2>
+        </div>
+      </div>
+      </div>
     </Fragment>
   );
 }
