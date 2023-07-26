@@ -11,16 +11,6 @@ let projects = [
       "This project was built using SvelteKit v1, Tailwind CSS, and Sanity as a headless CMS. Rich text editors and images are displayed on the site from Sanity Studio. This site was built with the farm owner in mind. The integration with Sanity allows the business owner to easily update any of the facilities, services, or horses. Any changes made would immediately go live to the website. Hosted on Netlify."
   },
   {
-    id: 13,
-    title: "Localize",
-    description:
-      "This website is for an e-commerce site that encourages people to shop from their local merchants. Users can sign up and search for merchants in their local area, look at their products, and buy online.",
-    image: "projects/localize.png",
-    repo: "https://github.com/its-cess/shop-local",
-    using:
-      "This project was created using SvelteKit v1, DaisyUI component library, Tailwind CSS, and integrated with a REST API to fetch the products, users, and merchants."
-  },
-  {
     id: 12,
     title: "Clothing Store",
     description:
