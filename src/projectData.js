@@ -1,16 +1,5 @@
 let projects = [
   {
-    id: 5,
-    title: "Contacts App",
-    description:
-      "This application helps keep track of contacts. Contacts can be added, edited, deleted, added to favorites. There is also the ability to search through the contacts by name.",
-    image: "projects/contacts-app.png",
-    url: "https://contacts-app-cecilytoro.netlify.app/",
-    repo: "https://github.com/its-cess/contacts",
-    using:
-      "This project was built using Vue3, Vue Router, Pinia, Maska, Tailwind CSS, Supabase as the database, and hosted on Netlify."
-  },
-  {
     id: 4,
     title: "Velvet Acres Boarding Facility",
     description:
