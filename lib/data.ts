@@ -27,32 +27,24 @@ export const projects: Project[] = [
     id: 1,
     title: 'BookTalk',
     description:
-      'A social platform for book lovers to share reviews, discover new reads, and connect with fellow readers.',
+      'A full-stack social platform for book lovers. Share reviews, follow readers, get a personalized feed, and discover new reads — production-deployed with real infrastructure.',
     details:
-      'BookTalk is a full-stack social platform built for book enthusiasts. Users can create posts about books they\'re reading, write reviews, discover new reads, and connect with other readers. [Placeholder — add more detail about tech decisions, architecture, and challenges here.]',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+      'Built as a pnpm workspaces monorepo with a shared @booktalk/shared package containing Zod schemas and TypeScript types consumed by both the API and web app — a single source of truth for data shapes that eliminates frontend/backend contract bugs. The React/TypeScript frontend communicates with a Fastify/Node.js API backed by PostgreSQL via Prisma on Supabase. Avatar uploads use a presigned Cloudflare R2 flow so binary data never touches the API server. Many endpoints use optional auth — unauthenticated users can browse, authenticated users get enriched responses — avoiding duplicated routes. Full CI pipeline via GitHub Actions runs linting, typechecking, and tests on every PR.',
+    tech: ['React', 'TypeScript', 'Fastify', 'PostgreSQL', 'Prisma', 'TanStack Query', 'Tailwind CSS', 'Supabase', 'Cloudflare', 'pnpm workspaces'],
     github: 'https://github.com/its-cess/booktalk',
     live: 'https://booktalksocial.com',
     image: '/images/projects/booktalk.png',
   },
   {
     id: 2,
-    title: 'Project Title',
-    description: 'Placeholder — new project coming soon.',
-    details: 'Placeholder details for upcoming project.',
-    tech: ['TBD'],
-    github: '#',
-    live: '#',
-    image: '/images/projects/placeholder.png',
-  },
-  {
-    id: 3,
     title: 'Velvet Acres',
-    description: 'Placeholder description for the Velvet Acres project.',
-    details: 'Placeholder details for Velvet Acres.',
-    tech: ['React', 'Netlify'],
-    github: '#',
-    live: '#',
+    description:
+      'A website for a horse boarding facility, built with a headless CMS so the business owner can update content — text, images, and more — without touching code.',
+    details:
+      'Velvet Acres is a SvelteKit site backed by Sanity CMS, built with a non-technical business owner in mind. Content is managed entirely through the Sanity Studio interface, meaning the owner can update boarding rates, facility info, and images after launch without any developer involvement. Portable Text blocks from Sanity are rendered via @portabletext/svelte, giving the CMS full rich-text flexibility. Deployed on Netlify using the SvelteKit Netlify adapter with SSR support.',
+    tech: ['SvelteKit', 'Sanity CMS', 'Tailwind CSS', 'Vite', 'Netlify'],
+    github: 'https://github.com/its-cess/velvet-acres',
+    live: 'https://velvetacres.netlify.app/',
     image: '/images/projects/velvet-acres.png',
   },
 ]

@@ -19,7 +19,7 @@ export function ProjectCard({ project }: { project: Project }) {
 
   return (
     <>
-      <Card className="bg-white border-0 rounded-none shadow-sm overflow-hidden group flex flex-col">
+      <Card onClick={() => setOpen(true)} className="bg-white border-0 rounded-none shadow-sm overflow-hidden group flex flex-col cursor-pointer">
         <div className="aspect-video bg-pearl/50 overflow-hidden relative">
           <Image
             src={project.image}
@@ -33,7 +33,7 @@ export function ProjectCard({ project }: { project: Project }) {
           <h3 className="font-bebas text-3xl text-charcoal tracking-wide mb-2">
             {project.title}
           </h3>
-          <p className="text-base text-charcoal/60 leading-relaxed line-clamp-3">
+          <p className="text-lg text-charcoal/60 leading-relaxed">
             {project.description}
           </p>
           <div className="flex flex-wrap gap-1.5 mt-4">
@@ -49,7 +49,7 @@ export function ProjectCard({ project }: { project: Project }) {
           </div>
         </CardContent>
 
-        <CardFooter className="px-6 pb-6 pt-0 flex items-center justify-between">
+        <CardFooter onClick={(e) => e.stopPropagation()} className="px-6 pb-6 pt-0 flex items-center justify-between">
           <div className="flex gap-4">
             {project.github !== '#' && (
               <a
@@ -90,7 +90,7 @@ export function ProjectCard({ project }: { project: Project }) {
               {project.title}
             </DialogTitle>
           </DialogHeader>
-          <DialogDescription className="text-charcoal/70 leading-relaxed">
+          <DialogDescription className="text-lg text-charcoal/70 leading-relaxed">
             {project.details}
           </DialogDescription>
           <div className="flex flex-wrap gap-1.5 pt-2">
@@ -110,9 +110,9 @@ export function ProjectCard({ project }: { project: Project }) {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-sm text-magenta hover:underline underline-offset-2"
+                className="flex items-center gap-2 text-lg text-magenta hover:underline underline-offset-2"
               >
-                <Github size={16} />
+                <Github size={20} />
                 View on GitHub
               </a>
             )}
@@ -121,9 +121,9 @@ export function ProjectCard({ project }: { project: Project }) {
                 href={project.live}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-sm text-magenta hover:underline underline-offset-2"
+                className="flex items-center gap-2 text-lg text-magenta hover:underline underline-offset-2"
               >
-                <ExternalLink size={16} />
+                <ExternalLink size={20} />
                 Visit Live Site
               </a>
             )}
