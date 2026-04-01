@@ -10,8 +10,9 @@ export function Contact() {
             Get In Touch
           </h2>
           <p className="text-white/80 text-xl max-w-xl leading-relaxed mb-10">
-            Placeholder contact text — feel free to reach out for opportunities,
-            collaboration, or just to say hello.
+            Open to new opportunities, collaborations, and conversations. Whether
+            you&apos;re hiring, building something interesting, or just want to
+            connect — drop me a line.
           </p>
           <a
             href="mailto:torocecily@gmail.com"
