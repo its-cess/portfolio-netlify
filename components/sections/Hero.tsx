@@ -24,9 +24,10 @@ export function Hero() {
       <div className="max-w-7xl mx-auto px-4 pt-24 pb-16 flex items-start justify-between gap-12">
         {/* Left: content */}
         <div className="flex-1">
-          <p className="text-magenta text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-magenta text-lg font-medium tracking-widest uppercase mb-4">
             Hello, I&apos;m
           </p>
+
           <h1 className="font-bebas text-[7rem] md:text-[10rem] leading-none text-white tracking-wide mb-4">
             Cecily Toro
           </h1>
@@ -34,9 +35,11 @@ export function Hero() {
             Software Engineer
           </h2>
           <p className="text-pearl/60 text-xl max-w-2xl leading-relaxed mb-12">
-            Placeholder bio — passionate about building clean, user-focused software.
-            Currently at Postman, working on [placeholder]. Add your real bio here once
-            the layout feels right.
+            I build software at scale. Currently at Postman working on Flows — a product
+            used by millions of developers worldwide. I got here the long way: military
+            service, a decade in healthcare, then a career switch into tech that didn&apos;t
+            come easy. When I&apos;m not at my keyboard, I&apos;m deep in a book or watching
+            hockey (Columbus Blue Jackets fan, for better or worse).
           </p>
           <a
             href="#projects"

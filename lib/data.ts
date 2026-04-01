@@ -60,38 +60,42 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     company: 'Postman',
-    role: 'Software Engineer II',
-    period: '20XX – Present',
+    role: 'Software Engineer — Flows Product Team',
+    period: 'August 2024 – Present',
     bullets: [
-      'Placeholder bullet — describe a key responsibility or achievement.',
-      'Placeholder bullet — describe a key responsibility or achievement.',
-      'Placeholder bullet — describe a key responsibility or achievement.',
+      'Led development of "Requests in Flows," reducing workflow friction and increasing user return rates by 2x.',
+      'Owned and delivered a large-scale architectural refactor consolidating two core flow primitives into a single unified entity — reducing user confusion, eliminating feature inconsistency, and simplifying future development across the codebase.',
+      'Authored RFCs outlining technical approach, trade-offs, and implementation plans for new features and system improvements.',
+      'Defined and implemented event tracking for new features in collaboration with the data team, enabling measurement of user adoption and feature success.',
+      'Integrated AI-assisted tooling into the development workflow to increase productivity and improve feature delivery turnaround.',
     ],
   },
   {
     company: 'Postman',
-    role: 'Software Engineer I',
-    period: '20XX – 20XX',
+    role: 'Software Engineer — Marketing Engineering Team',
+    period: 'November 2023 – August 2024',
     bullets: [
-      'Placeholder bullet — describe a key responsibility or achievement.',
-      'Placeholder bullet — describe a key responsibility or achievement.',
+      'Optimized npm package library components, cutting internal development time by 80%.',
+      'Implemented dynamic social media preview images with Next.js and Cloudinary, increasing user engagement by 20%.',
+      'Built reusable React components for POST/CON 24, Postman\'s annual developer conference with 700+ attendees.',
+      'Migrated the documentation web app from Gatsby v4 to Next.js v14.',
     ],
   },
   {
-    company: 'Company Name',
-    role: 'Role Title',
-    period: '20XX – 20XX',
+    company: 'Wethos',
+    role: 'Frontend Developer',
+    period: 'March 2022 – September 2022',
     bullets: [
-      'Placeholder bullet — describe a key responsibility or achievement.',
-      'Placeholder bullet — describe a key responsibility or achievement.',
+      'Delivered UI enhancements and new functionality that increased product usage by 25% and user return rates by 50%.',
+      'Reduced loading times and implemented skeleton loading to improve perceived performance and user experience.',
     ],
   },
 ]
 
 export const education: Education[] = [
   {
-    school: 'University Name',
+    school: 'Western Governors University',
     degree: 'Bachelor of Science in Software Engineering',
-    year: '20XX',
+    year: 'October 2024',
   },
 ]
